@@ -29,7 +29,7 @@ function for_loop() {
 const x = 10;
 
 function constant_function() {
-    /*x = x + 1; --does not work because x is a constant*/
+    //x = x + 1; --does not work because x is a constant//
     document.getElementById("constant").innerHTML = x;    
 }
 

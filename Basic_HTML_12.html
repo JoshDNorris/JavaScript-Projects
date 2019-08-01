@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Basic HTML Template</title>
+    <script src="JS/Basic_JavaScript_12.js"></script>
+    <link rel="stylesheet" href="css/Basic_CSS_12.css">
+</head>
+<body>
+    <h1>Contact me:</h1>
+    <form name="frm1" action="" onsubmit="return validateInput()" method="post">
+        Name:<br>
+        <input type="text" name="fname">
+        <input type="submit" value="Submit">
+    </form>
+    <h2>Click on one of the following:</h2>
+
+    <ul>
+        <li onclick="displayType(this)" id="DC"
+            data-character-type="Batman">DC</li>
+        <li onclick="displayType(this)" id="SW"
+            data-character-type="Darth Vader">SW</li>
+        <li onclick="displayType(this)" id="ST"
+            data-character-type="Locutus of Borg">ST</li>
+    </ul>
+
+
+
+</body>
+</html>
